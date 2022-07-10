@@ -14,7 +14,7 @@
 // e) println (c=++c*a++);
 
 object ScalaLab1_Question2{
-     def main(args: Array[String]){  
+     def main(args: Array[String]) = {  
 
         var a = 1; var b = 2; var c = 4; var d = 5;
         var f = 4.3f;
