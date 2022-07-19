@@ -21,6 +21,9 @@ object ScalaLab1_Question3 {
     println(profit(25), profit(30), profit(35));
 
   }
+  //this function calculates the cost for a show = 500 + attendance_count * 3
+  //attandance count is calculated with respect to the ticket price
+  //attendance count = ((15 - ticket price)*20) * 3
   def cost(price : Int):Int = 500 + (120 + ((15 - price)/5)*20) * 3;
 
   def total_revenue(price : Int):Int = price * (120 + ((15 - price)/5)*20);

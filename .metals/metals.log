@@ -12682,3 +12682,154 @@ WARNING: Unmatched cancel notification for request id 4624
 2022.07.10 21:50:05 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q1.scala[0m
 2022.07.10 21:50:06 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q1.scala[0m
 2022.07.10 21:50:11 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q2.scala[0m
+2022.07.10 21:56:12 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q2.scala[0m
+2022.07.10 21:56:13 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q2.scala[0m
+2022.07.10 21:56:13 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q2.scala[0m
+2022.07.10 21:56:14 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q2.scala[0m
+2022.07.10 22:03:48 ERROR text document: file:///Users/tharinduepasingha/Documents/Y2%20S1/Functional%20Programming/Lab%201/q4.scalajava.nio.file.NoSuchFileException: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q4.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1665)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1663)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:831)
+[0m
+2022.07.10 22:03:48 ERROR text document: file:///Users/tharinduepasingha/Documents/Y2%20S1/Functional%20Programming/Lab%201/q4.scalajava.nio.file.NoSuchFileException: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 1/q4.scala
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1320)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2732)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1665)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1663)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:831)
+[0m
+2022.07.10 22:04:03 INFO  shutting down Metals[0m
+2022.07.10 22:04:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/.metals/lsp.trace.json or /Users/tharinduepasingha/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.07.10 22:04:53 INFO  logging to file /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/.metals/metals.log[0m
+2022.07.10 22:04:53 INFO  Started: Metals version 0.11.7 in workspace '/Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2' for client Visual Studio Code 1.69.0.[0m
+2022.07.10 22:04:54 INFO  time: initialize in 0.76s[0m
+2022.07.10 22:04:58 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.07.10 22:04:58 WARN  Build server is not auto-connectable.[0m
+2022.07.10 22:04:58 WARN  no build tool detected in workspace '/Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.07.10 22:05:03 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala[0m
+2022.07.10 22:05:09 INFO  no build target found for /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.07.10 22:05:12 INFO  time: code lens generation in 8.01s[0m
+2022.07.10 22:05:12 INFO  time: code lens generation in 8.01s[0m
+2022.07.10 22:08:04 INFO  shutting down Metals[0m
+2022.07.19 08:22:56 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/.metals/lsp.trace.json or /Users/tharinduepasingha/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.07.19 08:22:57 INFO  logging to file /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/.metals/metals.log
+2022.07.19 08:22:57 INFO  Started: Metals version 0.11.7 in workspace '/Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2' for client Visual Studio Code 1.69.1.
+2022.07.19 08:22:58 INFO  time: initialize in 0.9s
+2022.07.19 08:22:58 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.07.19 08:22:58 WARN  Build server is not auto-connectable.
+2022.07.19 08:22:58 WARN  no build tool detected in workspace '/Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.07.19 08:23:04 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+Jul 19, 2022 8:23:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jul 19, 2022 8:23:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2022.07.19 08:23:11 INFO  no build target found for /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.07.19 08:23:13 INFO  time: code lens generation in 7.97s
+2022.07.19 08:23:13 INFO  time: code lens generation in 8.05s
+2022.07.19 08:23:13 INFO  time: code lens generation in 7.97s
+2022.07.19 08:23:13 INFO  time: code lens generation in 7.97s
+2022.07.19 08:23:13 INFO  time: code lens generation in 8.05s
+2022.07.19 08:24:24 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q1.scala
+2022.07.19 08:24:29 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q2.scala
+2022.07.19 08:24:47 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q3.scala
+2022.07.19 08:24:55 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:03 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+Jul 19, 2022 8:25:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 90
+Jul 19, 2022 8:25:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 179
+2022.07.19 08:25:20 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:22 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:25 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:32 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:36 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:49 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:52 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:25:57 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:00 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:02 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:05 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:12 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:20 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+Jul 19, 2022 8:26:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 405
+2022.07.19 08:26:24 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:34 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:36 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:37 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:43 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:50 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:52 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:55 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:26:56 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:02 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:08 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:12 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:18 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:21 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:31 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:38 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:41 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:43 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:45 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:46 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:48 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:50 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:52 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:53 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 08:27:54 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q4.scala
+2022.07.19 09:07:41 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q3.scala
+2022.07.19 09:08:47 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q3.scala
+Jul 19, 2022 9:08:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 978
+2022.07.19 09:08:49 WARN  no build target for: /Users/tharinduepasingha/Documents/Y2 S1/Functional Programming/Lab 2/q3.scala
+Jul 19, 2022 9:11:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

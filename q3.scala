@@ -6,7 +6,7 @@
 
 object ScalaLab1_Question3 {
   def main(args: Array[String]) = {
-    println(salary(100,30));
+    println(takeHome(100,30));
   }
   
   def salary(hours: Int, OT: Int):Int = hours * 250 + OT * 85;
